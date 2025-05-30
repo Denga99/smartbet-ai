@@ -1,0 +1,11 @@
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gray-900 text-white p-6">
+      <h1 className="text-4xl font-bold mb-4 text-center">SmartBet AI</h1>
+      <p className="text-lg text-center max-w-xl">
+        Dobrodošli na SmartBet AI – vašu destinaciju za inteligentne fudbalske predikcije!
+        Naš sistem koristi veštačku inteligenciju kako bi vam pomogao da bolje predvidite rezultate utakmica.
+      </p>
+    </main>
+  );
+}
